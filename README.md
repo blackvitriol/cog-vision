@@ -17,6 +17,9 @@ When it detects a face:
 -age ?
 -describe image ?
 
+![](https://github.com/blackvitriol/cog-vision/blob/master/vision2.gif?raw=true)
+
+
 ## Getting Started
 
    `python object_detection_app.py`
