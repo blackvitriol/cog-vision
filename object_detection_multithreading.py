@@ -140,3 +140,5 @@ if __name__ == '__main__':
 
     video_capture.stop()
     cv2.destroyAllWindows()
+
+#credds: -https://github.com/datitran/object_detector_app

@@ -4,7 +4,7 @@ The 'Vision' submodule will emulate human vision. It will allows robots to perci
 
 At the moment, this project is a real-time object recognition application. It does so by using [Google's TensorFlow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection) and [OpenCV](http://opencv.org/).
 
-The detected objects are classified using labelled bounding boxes, but a tracker will save the corresponding pixels in a dynamic memory.
+The detected objects are classified using labelled bounding boxes, but a tracker will save the corresponding pixels in a dynamic memory for the 'Perception' and 'Memory' module.
 
 In the future: 
 
@@ -18,9 +18,8 @@ When it detects a face:
 -describe image ?
 
 ## Getting Started
-1. `conda env create -f environment.yml`
- -conda install -c menpo opencv3
-2. `python object_detection_app.py`
+
+   `python object_detection_app.py`
     Optional arguments (default value):
     * Device index of the camera `--source=0`
     * Width of the frames in the video stream `--width=480`
