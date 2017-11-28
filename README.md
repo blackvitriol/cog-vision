@@ -20,12 +20,13 @@ When it detects a face:
 ## Getting Started
 
    `python object_detection_app.py`
-    Optional arguments (default value):
-    * Device index of the camera `--source=0`
-    * Width of the frames in the video stream `--width=480`
-    * Height of the frames in the video stream `--height=360`
-    * Number of workers `--num-workers=2`
-    * Size of the queue `--queue-size=5`
+   
+ Optional arguments (default value):
+ - Device index of the camera `--source=0`
+ - Width of the frames in the video stream `--width=480`
+ - Height of the frames in the video stream `--height=360`
+ - Number of workers `--num-workers=2`
+ - Size of the queue `--queue-size=5`
 
 ## Tests
 ```
