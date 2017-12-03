@@ -8,6 +8,8 @@ The detected objects are classified using labelled bounding boxes, but a tracker
 
 In the future: 
 
+Vision: Detection - Recognition
+
 When it detects a face:
 -then recognize identity
 -sentiment analysis: 
